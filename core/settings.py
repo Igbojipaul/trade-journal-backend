@@ -70,6 +70,7 @@ GOOGLE_CLIENT_SECRET = config('GOOGLE_CLIENT_SECRET', default='')
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",
     "https://trade-journal-seven-delta.vercel.app",
+    "https://trade-journal-v2-steel.vercel.app",
 ]
 
 REST_FRAMEWORK = {
